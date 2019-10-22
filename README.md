@@ -1,6 +1,10 @@
 # RangeSeekBar
 Android Range Seekbar library 
 
+[![](https://jitpack.io/v/Mohammed-Alaa/RangeSeekBar.svg)](https://jitpack.io/#Mohammed-Alaa/RangeSeekBar)
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)  
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RangeSeekBar-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7527)
+
 [![](https://jitpack.io/v/zeffa/RangeSeekBar.svg)](https://jitpack.io/#zeffa/RangeSeekBar)
 
 ## Usage
