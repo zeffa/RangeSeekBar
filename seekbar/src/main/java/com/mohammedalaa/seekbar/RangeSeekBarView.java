@@ -145,9 +145,9 @@ public class RangeSeekBarView extends AppCompatSeekBar implements SeekBar.OnSeek
         if (newValue < minValue || newValue > maxValue) {
             newValue = currentValue;
         }
-        if(newValue%step==0){
-            currentValue = newValue;
-        }
+//        if(newValue%step==0){
+        currentValue = newValue;
+//        }
 
         if(animation != null) {
             animation.cancel();
