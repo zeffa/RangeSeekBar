@@ -12,6 +12,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.v7.widget.AppCompatSeekBar;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.SeekBar;
 
 public class RangeSeekBarView extends AppCompatSeekBar implements SeekBar.OnSeekBarChangeListener {
@@ -174,6 +175,7 @@ public class RangeSeekBarView extends AppCompatSeekBar implements SeekBar.OnSeek
             valueToDraw = currentValue;
         }
 
+        Log.d("RangeSeekBar", "valueToDraw: "+valueToDraw+" passedValue: "+newValue);
         //valueToDraw = currentValue;
         invalidate();
     }
